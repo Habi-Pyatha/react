@@ -11,6 +11,11 @@ const addValue=()=>{
 if(counter<=20){
 
   setCounter(counter++)
+  setCounter((prevCounter)=>prevCounter+1)
+  setCounter((prevCounter)=>prevCounter+1)
+  setCounter((prevCounter)=>prevCounter+1)
+  setCounter((prevCounter)=>prevCounter+1)
+  
 }
 //  console.log("Clicked",counter);
 }
